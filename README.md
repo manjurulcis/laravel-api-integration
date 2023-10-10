@@ -11,6 +11,10 @@ This is a small project to implement a third party api. This project provides a 
 2. Run `cp env.example .env` and run the application using this command `php artisan serve`
 3. Try any api routes in postman or using curl
 
+## How to run unit tests.
+
+1. Run the unit tests using this command `php artisan test`
+   
 ## Improvements
 The project was implemented in extendable approach. In future it is possible to write artisam commands to generate the basic api implementation boilerplates. 
 
