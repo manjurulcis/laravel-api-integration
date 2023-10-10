@@ -9,7 +9,8 @@ This is a small project to implement a third party api. This project provides a 
 
 1. Clone this repo and navigate to the project folder. Run `composer install`
 2. Run `cp env.example .env` and run the application using this command `php artisan serve`
-3. Try any api routes in postman or using curl
+3. Add BAKERS_API_TOKEN=****** and BAKERS_API_URL=https://private-anon-3e70419254-doorstepbirthdaycakes.apiary-mock.com
+4. Try any api routes in postman or using curl
 
 ## How to run unit tests.
 
