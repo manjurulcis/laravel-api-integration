@@ -15,7 +15,7 @@ class StockController
   public function __invoke()
   {
 
-    return $this->api->stock()->list();
+    return $this->api->stock()->list()['cakes'];
     // Whatever else we need to do...
   }
 }
