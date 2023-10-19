@@ -13,10 +13,6 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
-    'medical-trust' => [
-        'url' => env('MEDICAL_TRUST_URL'),
-        'token' => env('MEDICAL_TRUST_TOKEN'),
-    ],
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),

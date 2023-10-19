@@ -11,7 +11,7 @@ trait CanSendGetRequest
   public function get(PendingRequest $request, string $url): Response
   {
     return $request->get(
-        url: $this->baseUrl . $url,
+        url: $url,
     );
   }
 }

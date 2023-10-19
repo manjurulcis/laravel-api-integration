@@ -4,7 +4,6 @@ declare(strict_types=1);
 namespace App\Http\Controllers\BakersApi;
 
 use App\Services\BakersApi\BakersApiService;
-use Illuminate\Http\RedirectResponse;
 
 class StockController
 {
@@ -14,8 +13,7 @@ class StockController
 
   public function __invoke()
   {
-
+    // This makes the code descriptive
     return $this->api->stock()->list()['cakes'];
-    // Whatever else we need to do...
   }
 }

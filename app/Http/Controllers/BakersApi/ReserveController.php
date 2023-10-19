@@ -4,7 +4,6 @@ declare(strict_types=1);
 namespace App\Http\Controllers\BakersApi;
 
 use App\Services\BakersApi\BakersApiService;
-use Illuminate\Http\RedirectResponse;
 use App\Services\BakersApi\DataFactories\ReservationFactory;
 
 class ReserveController
@@ -24,6 +23,5 @@ class ReserveController
         'message' => '<p>Rich <strong>text</strong> message</p>'
     ];
     return $this->api->reserve((new ReservationFactory)->make(attributes: $data))->order();
-    // Whatever else we need to do...
   }
 }
